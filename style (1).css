@@ -6,13 +6,19 @@
 
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 20px; /* Adjust the padding as needed for your main content */
 }
 
 footer {
   background-color: #111;
   color: #ffff;
   text-align: center;
-  padding: 200px 0;
+  padding: 20px 0; /* Adjust the padding as needed for your footer */
+  border-top: 200px solid #fff; /* Add a white line at the top of the footer */
 }
 
 .footerContainer {
@@ -23,64 +29,14 @@ footer {
   margin: 0 auto;
 }
 
-.leftSection {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  margin-right: 10px;
-}
-
-.logo a {
-  text-decoration: none;
-  padding: 10px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.logo a i {
-  font-size: 2em;
-  color: black;
-  opacity: 0.9;
-}
-
-.logo a:hover {
-  background-color: #111;
-  transition: 0.5s;
-}
-
-.logo a:hover i {
-  color: white;
-  transition: 0.5s;
-}
-
-.companyName {
-  margin-left: 10px;
-}
-
-.middleSpace {
-  flex-grow: 1;
-}
-
-.rightSection {
-  text-align: left;
-}
-
 .footerNav ul {
   list-style: none;
   display: flex; /* Display list items horizontally */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: flex-end; /* Align items to the right */
 }
 
 .footerNav li {
-  margin: 50px 10px; /* Add some horizontal margin between list items */
+  margin: 0 10px; /* Add some horizontal margin between list items */
 }
 
-.footerBottom {
-  margin-top: 20px;
-  text-align: left;
-}
-
-.designer {
-  font-weight: bold;
-}
