@@ -9,8 +9,8 @@ body {
 }
 
 footer {
-  background-color: #ffffff;
-  color: #111;
+  background-color: #111;
+  color: #ffff;
   text-align: center;
   padding: 200px 0;
 }
@@ -69,15 +69,17 @@ footer {
 
 .footerNav ul {
   list-style: none;
+  display: flex; /* Display list items horizontally */
 }
 
 .footerNav li {
-  margin: 5px 0; 
+  margin: 50px 10px; /* Add some horizontal margin between list items */
 }
 
 .footerBottom {
   margin-top: 20px;
-  text-align: left; 
+  text-align: left;
+}
 
 .designer {
   font-weight: bold;
